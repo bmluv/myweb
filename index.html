@@ -1,6 +1,84 @@
-<html>
-  <body>
-   <h1>Your Name Here</h1>
-   <h2> Your student code here</h2>
-  </body>
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ร้านเสื้อผ้านักศึกษา มช.</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #6a1b9a;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header img {
+            height: 80px;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .promo {
+            text-align: center;
+            margin: 30px 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 20px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .price {
+            color: #6a1b9a;
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="โลโก้ร้าน">
+        <h1>ร้านเสื้อผ้านักศึกษา มช.</h1>
+    </header>
+    <div class="container">
+        <div class="promo">
+            เสื้อผ้าสไตล์นักศึกษา มช. เท่ห์ มีสไตล์ ราคาน่ารัก พร้อมส่งทุกตัว!
+        </div>
+        <div class="products">
+            <div class="product">
+                <img src="shirt1.jpg" alt="เสื้อผ้ารุ่นที่ 1">
+                <div class="price">฿250</div>
+            </div>
+            <div class="product">
+                <img src="shirt2.jpg" alt="เสื้อผ้ารุ่นที่ 2">
+                <div class="price">฿290</div>
+            </div>
+            <div class="product">
+                <img src="shirt3.jpg" alt="เสื้อผ้ารุ่นที่ 3">
+                <div class="price">฿310</div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
